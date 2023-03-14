@@ -1,0 +1,53 @@
+How to group your tests in TestNG?
+
+
+2.How to define grouping?
+3.Types of groups and how to use them?
+TestGroups  (calling the groups from xml )
+Exclusion Groups (Exclude )
+Meta Groups  (Group of Groups) daily build weekly build
+Partial Groups (class level)
+4.How to execute the groups at suite level?
+5.How to execute the groups at suite + test level?
+6.How to use regular expression? windows.*;
+
+
+1.What is grouping ? Why we need grouping ?
+Grouping is categorization of testcases 
+ 
+Smoke -- 10
+Functional --70
+Regression --75
+DailyBuild -- 40 
+weelkyBuild -- 100
+Windows I/O  based test cases
+
+smoketests.xml
+functionaltests.xml 
+we can run using xml files 
+
+we run group the test cases at class level and suite level 
+when we exclude particular that group will not execute , remaining groups will be  
+executed for the classes mentioned.
+
+<include name="windows.*"/>
+
+
+groups are always mentioned in array format  {}
+
+groups ={"regression","sanity"} 
+groups={"regression"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

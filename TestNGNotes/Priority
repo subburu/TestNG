@@ -1,0 +1,43 @@
+How to Prioritize your test methods in TestNG?
+How to define the priority ?
+We to define priority annotation inside the @test annotation
+E.g @test(priority=1)
+
+What is the default value of priority ?
+Default priority is zero , if you give priority for all testcases and miss 
+for one test case ,then default priority is zero
+
+Can we pass negative values to priority?
+Yes , we can pass 
+
+What happens if the same priority is provided to multiple methods?
+ASCII order /Alphabetic order will be followed 
+
+
+FligtBookingTest
+1.Signup
+2.Login 
+3.SearchForTheFlight
+4.BookTheFlight
+5.SaveTheTicket
+6.Logout
+
+
+TestNG identifies  the test cases based on the ASCII value ,Alphabetic order
+@ 64 
+A 65 
+a 97
+ 
+ SaveTheTicket
+ SearchForTheFlight
+ Signup
+ 
+ 
+ priority accepts integer values including negative values.
+ 
+
+
+
+
+
+

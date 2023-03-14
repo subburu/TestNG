@@ -1,0 +1,14 @@
+How to capture screenshots for only failed tests in TestNG ?
+
+
+1.In how many ways we can acheive this ? and what are they ?
+
+2.How to capture the screenshot for failed test in testng using listeners?
+
+
+3.How to capture screenshot for failed test in testng using dependency injection ?
+
+
+4.How to avoid the screenshots overriding?
+
+

@@ -1,0 +1,108 @@
+DataProviders in TestNG
+
+What is DataProvider how to use it in TestNG?
+
+Data provider is a container which can provide different sets of test data.
+To avoid the hard coded values.
+To parameterize  test data we need to use Data provider.
+
+
+2.How to use data  provider ?
+We don't want to hard cord the test data , we need to use data provider
+@Dataprovider 
+
+
+3.What happens if we don't provide a name to data provider?
+it will throw the exception , to overcome the exception we can use the method name 
+
+We need to pass different inputs for login , from outside of the method
+Same test case with multiple times using multiple sets of data 
+
+1.What is DataProvider and why we need to use data provider?
+Data provider is used to parameterize the data 
+
+
+When we dont have data provider name , we can use the method name 
+
+Generally we use getData method for the data provider 
+
+Part-2 
+---------
+
+Parameters of Test Method and return types of Data provider ?
+
+
+1.It is mandatory to return  object[][] from data provider?
+It is not mandatory to return object [][]
+
+2.What are the return types of a data provider?
+object[] (single dimensional array)
+object[][] (double dimensional array)
+Iterator <Object>
+Iterator <Object[]>
+
+Object -- any data type -- predefined data /user data type 
+Predefined 
+String 
+Integer 
+float 
+Employee[]
+Object is super class of all the classes , so we use object.
+
+Part 3
+---------------------
+
+How to use the data provider partially in TestNG?
+1.What is indices ? why do we use indices?
+0,2 indexes of array are called indices
+
+2.How to use indices?
+To  pass the paritally data 
+3.What happens if we don't use the indices?
+Entire test data will be used by default 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+
+3.How to specify the parameters in method signature of a test method?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+DataProviders -- Part2 
+
+How to create the data provider in a seperate class?
+
+
+1.Can we seperate the data provider from the test class?
+Yes we can seperate the data provider from test class
+
+
+2.What is data provider class? why do we use data provider class?
+
+
+3.How to use data provider class?
+
+
+4.Can we store multiple data provider in the data provider class?
+Yes, we can store multiple data providers , we will use the method name 
+to get the data provider  
+
+
+
+5.Can we have multiple data provider classes in project?
+Yes we can have , as will mention the data provider class and method method 
+while fecting the data provider 
+

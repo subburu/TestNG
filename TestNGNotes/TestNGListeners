@@ -1,0 +1,64 @@
+TestNG Listeners
+
+1.What is listener in TestNG?
+Listener is an Interface is  in TestNG .. Listener is not a class 
+
+listener -- person who is listening something is called listener.
+Some events will be happening internally in selenium , so to capture those events we use listeners
+Events that are performed by selenium are captured by listeners.
+
+
+2.Why do we need a listener in TestNG?
+If you want to alter the behaviour of the testNG .. 
+
+
+3.List some of the listeners available in TestNG ?
+Many listeners available more than 20 .
+IAnnotaionTrasformer
+IAnnotaionTrasformer2
+IHookable
+IInvokedMethodListener
+IMethodIntercept
+IReporter
+ISuiteListener
+ITestListener  --- most popular and commonly used Listener
+
+
+EveryListener is an interface in TestNG.
+
+4.How to use listeners at class level?
+
+
+5.How to use listeners at suite level?
+
+
+6.What is the difference between listeners & annotations?
+
+You have to give the Listener name -- so that it can listener to your listener.
+We have to use an annotation listener at the class level
+
+OnTest failure 
+Take screenshot 
+
+TestNG Listener at suite level -- suite level means using xml.
+
+Based on the test result status -- Listeners will work 
+Annonations and Listeners are completely different 
+
+By default there is a class in TESTNG -- TestListener Adaptor 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

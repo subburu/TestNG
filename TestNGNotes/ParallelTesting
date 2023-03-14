@@ -1,0 +1,17 @@
+Parallel Execution with DataProvider in TestNG?
+
+1.How to execute tests parallely with DataProvider?
+
+2.How to control the thread count when using data provider?
+
+
+if you have 100 test cases and just using parallel attribute , 
+then 100 times browser will be opened and execution gets struck due to network.
+
+So,we need to have control where we can set the value for data provider 
+How many sets of data we need send parallel ,we can control using thread-count
+
+You cannot specify the data provider thread-count inside the class.
+We need to specify the thread-count in xml file 
+
+

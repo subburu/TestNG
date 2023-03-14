@@ -1,0 +1,51 @@
+TestNG Annotations 
+1.What is an annotation?
+2.what are the annotations available in testNG ?
+3.How to these annotations?
+
+1.What is an annotation?
+Annotation is a form of metadata that can be added to the java source code.
+package,class ,variables,Methods ,parameters.
+
+Annotations are introduced in java 1.5
+@override -- is java annotation 
+@-- indicates its a annotation
+@FindBy -- is selenium annotation
+
+TestNG Annotations execution sequence 
+@BeforeSuite
+@BeforeGroup
+@BeforeClass 
+@BeforeMethod
+@BeforeTest
+@Test 
+@AfterTest
+@AfterMethod
+@AfterClass 
+@AfterGroup
+@AfterSuite
+
+-------------
+
+
+------------
+
+@Dataprovider
+@Parameters
+@Factory 
+@Listeners
+@Ignore
+
+How to use these annotations?
+
+ByDefault @Test is included when you create a testNG class.
+Annotations are not mandatory -- they are optional when required we can use.
+
+
+Java was having annotations even before TestNG
+
+
+
+
+
+

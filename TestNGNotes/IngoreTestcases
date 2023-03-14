@@ -1,0 +1,34 @@
+How to ignore tests in TestNG?
+
+Ignore the specific test Methods?
+Ignore all the test methods in testNG class?
+Ignore all the test methods in a package ?
+
+To specifically disable the testcases 
+
+Package class methods 
+@Test method
+
+TestNG class if any class is having at least one test method t
+hen that class is called as TestNG class
+
+We can ignore the testcases at 
+package level
+Class level 
+Method level
+
+Ignoring and disabling are both same 
+
+@Ingnore tag has highest priority compared to enabled =true 
+if it is enabled =true , it will not execute the test case.
+
+
+@Ignore all the  tests in the class by placing @Ignore all in the class level.
+ package-info.java file need to be created and @Ignore should be mentioned 
+ above the package name
+ 
+ 
+
+
+
+

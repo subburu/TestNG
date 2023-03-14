@@ -1,0 +1,49 @@
+Data Providers : Integration of excel with Dataprovider.
+
+1.Libraries available for reading the data from excel file 
+Apace poi , JXL are libraries for reading 
+Apache POI supports -- both versions xsl and xlsx
+JXL supports -- only older version 
+JXL is faster than Apace poi -- performance wise.
+
+Excel file -- >
+XLS  older version
+XLSX -- Newer version
+
+
+2.Downloading and installing of Apace poi java library 
+Maven dependencies.
+Apache POI - poi 
+Apache POI - poi ooxml
+
+3.How to read the data from excel file dynamically ?
+Excel file -- is a Excel workbook
+workbook -- contains -- sheets 
+worbook --> sheet --> Row -- > cell
+
+Excel file  --- XLS -- (H)
+XLSX -- (X)
+
+4.How to create  the data provider  by reading the data from excel file?
+
+5.How to maintain the data provider in a seperate class?
+
+Excel file -- Tabular form we have data 
+No of columns no of rows 
+
+Excel file is a two dimensional data so we use two dimensional data provider 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

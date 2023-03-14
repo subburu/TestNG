@@ -1,0 +1,63 @@
+Execute your tests in parallel using TestNG
+
+1.Sequential  -- One after the other 
+2.Parallel  --  Side by Side 
+
+1.What is parallel execution ?
+Sequential execution -- sequential order 
+Parallel -- executing test cases side by side -- to save the time 
+ 
+2.Why do we need parallel execution?
+To Save the time -- we use parallel execution 
+
+5 test cases  
+1st  5mins
+2nd 10 mins 
+3rd 15 mins 
+4th 10 mins total  30mins in sequential execution 
+But when your executing side by side max time will be 15.
+1st case takes 5 mins 
+2nd take 10 mins
+
+3.How to perform the parallel execution ?
+
+Thread is nothing but a process inside the java
+
+We need to use parallel execution we need to use xml file 
+
+Two attributes we need to use for parallel execution 
+at suite level or test level
+1. Parallel 
+2. Thread count 
+
+parallel value = false / none -- then thread-count is not consider -- sequential execution
+if thread-count =1 , then test cases will be executed in sequential order only 
+
+if you provide negative number to thread count -- illegal Argument exception will be thrown
+thread-count=-1;
+
+parallel=tests and thread-count ="2"
+
+parallel execution should always be used in suite level not in the test level
+<suite name="Suite" parallel="tests" thread-count="2">
+  <test  name="Test1" parallel="tests" thread-count="2"> -- this does not make sense as it applicable to particular test1
+  
+  Note : Thread-count is use full when we are executing the test cases in parallel 
+  
+  
+  
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+

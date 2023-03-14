@@ -1,0 +1,30 @@
+Enable / Disable testcases 
+
+TestNG Project 
+
+testng XML file 1
+Test1
+Test2
+Test3
+Test4
+
+testng XML file 2
+Test1
+
+testng XML file 3
+Test1
+Test2
+Test3
+
+dont want to execute all testcases 
+Multiple releases 
+Release 1 
+Release 2 
+In each sprint dont want to execute all testcases
+
+By default for all testcases enable =true -- we no need to mention
+
+
+
+
+

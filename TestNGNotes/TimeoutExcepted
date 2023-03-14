@@ -1,0 +1,29 @@
+How to use timeout & expected exceptions attributes in TestNG?
+
+1.What is timeout?
+According to BRD -- website should be opened in 2 seconds 
+then we have use timeout -- 
+Shipment should happen in 10 seconds 
+more than the expected time -- then testNG will show the error
+TestAttributes.testmethod1() didn't finish within the time-out 2
+
+Time will accept milliseconds
+
+if the page is not loaded with in the time -- TestNG will mark the testcase as failure.
+
+2.How to use timeout?
+@Test(Timeout =2000)
+
+3.what is expected exceptions?
+Not used in realtime scenario only for interview 
+
+4.How to use excepted exceptions.
+
+abc -- NosuchElements 
+IoException -- expecting some exceptions 
+
+@Test(exepected
+
+
+
+

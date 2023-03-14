@@ -1,0 +1,42 @@
+How to use Invocation count ,Invocation timeout & Threadpool size in TestNG?
+
+@Test annotation -- many attributes are available 
+1.What is Invocation count?
+Invocation count is used to execute the same test case multiple times with out using any 
+forloop.
+for example you want to create 10 new records --  create record test case can be executed 10 times.
+
+@Test(invocationCount=5)
+invocatoinCount is  an attribute 
+even if test cases fails due to sync issue in second time , it will continue to execute  third time
+
+2.Why do we need Invocation count?
+To execute the same test case multiple times
+
+3.How to use invocation count?
+@Test(invocationCount=5)
+
+4.What is Invocation timeout ?
+invocation timeout is similar to timeout -- the test cases gets failed if the 
+invocation timeout gets execeed.
+
+
+5.How do we use invocation timeout?
+
+@Test(invocationCount=5 ,timeOut =1000)
+
+6.What is ThreadPool size?
+What ever the invocations your planning you can mention the thread-pool 
+How many number of threads you want to execute 
+
+@Test(invocationCount=5 ,threadpoolSize =2)
+
+ThreadPool is similar to thread-count in parallel testing 
+ThreadPool can be used only for Invocation count
+
+
+7.Why do we need ThreadPool size?
+
+
+8.How to use ThreadPool size?
+

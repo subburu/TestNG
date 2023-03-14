@@ -1,0 +1,70 @@
+Parameters in TextNG
+
+1.What is the use of TestNG Parameters?
+2.How to use the TestNG parameters?
+
+TestNG Parameters : 100 testcases 
+Prod url 
+UAT url 
+QA url 
+
+Firefox browser
+Chrome browser
+Internet browser
+
+Parameters can be passed at suite level and @ Test level
+If a parameter is used for most of the test cases then we use scope parameters
+The scope of the suite level  parameters is all the tests cases in the suite
+
+The scope of the test level parameters only for the particular test case.
+
+if you more than one parameter , then we need to pass the parameters in an array format
+Parameters({"username","password"})
+
+if suite level and test level parameters are same , then test level 
+parameter will replace the suite level parameters
+
+When you pass the parameters in XML , we need to run the tests using xml file,
+if run the testNG class , then it thrown an error
+
+Optional Parameters
+1.How to use the testNG optional parameters?
+2.How to pass the default value for a parameter in TestNG?
+
+Optional parameters without passing the value , default value is consider as 
+a optional parameters.
+
+If the user passes the parameters then , user passed parameter 
+will have highest priority
+
+If user doesn't pass the parameter then ,optional parameter will be considered.
+
+
+Note : We can execute the test cases in the order using XML file also 
+but we have maintain the order of test cases.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

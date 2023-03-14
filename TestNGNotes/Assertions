@@ -1,0 +1,60 @@
+What is meant by assertion ?
+Assertion is an expression which will verify the actual test outcome
+with expected test outcome.
+
+
+Are assertions mandatory in tests?
+Yes assertions are mandatory for validations
+
+How to perform the assertions?
+Every test should have some outcome.
+We need to validate.
+
+Assert is a static class and all methods in assert are static 
+
+Assertions are not available in selenium , 
+we have to take the help of testNG or Junit.
+
+Hard Assertions VS Soft Assertions 
+What is hard Assertion?
+Hard Assertion is an assertion which throws the exception immediately upon 
+the failure of assertion.
+By default assertions are hard assertions.
+Rest of the code will not be executed after the assertion failed.
+Soft assertion -- we will not throw the exception immeditely , we will throw the exception in specified or at the end of the test.
+The code will be executed after the soft assertion .
+
+
+What is soft Assertion ?
+what is the difference between soft and Hard Assertion ?
+How to use soft Assertions?
+
+
+
+
+
+
+Assert -- Hard Assertions 
+SoftAssert class -- then soft Assertions
+
+Title
+url
+text
+Border 
+error message
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

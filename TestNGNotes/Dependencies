@@ -1,0 +1,48 @@
+How to create the test dependencies in TestNG?
+
+1.What is test dependency ? Why we need test dependencies?
+Test depended on another test - then we need to use dependencies
+
+
+
+2.How to create a test dependency on other tests?
+ 
+3.what happens when priority is set to the set method?
+priority will not be consider ,when we use test dependency 
+priority will be ignored 
+
+what happens when depended test is failed?
+Test case will be moved into the skip state
+Even though dependency test case fails we need to run the test case then will use 
+alwaysRun = true
+what happens when depended test is ignored /skipped /deleted?
+The test cases will not be executed, we will get testNG exception
+
+
+1.Create shipment 
+2.Track shipment -- tracking number
+3.Cancel Shipment -- tracking number
+
+tracking number is the relation between the test cases 
+if tracking number is not available then executing 2 and 3 test cases are 
+of no use 
+
+if create shipment is failed -- its waste of time in executing 
+other test cases Track ship and cancel shipment to avoid these we use dependencies
+
+Dependencies can applied for 
+Testmethods 
+Testgroups
+
+Dependencis take string [] arrays {}
+
+Dependencies methods will have high priority 
+
+
+
+
+
+
+
+
+
